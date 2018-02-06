@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Loyola Contact</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="navbarformat">
+    <nav class="navbar navbar-expand-lg navbar-light bg-Default">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <div class="row">
+          <ul>
+            <div class="col-lg-12 col-sm-12">
+              <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+              </li>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required="required"></textarea>
+            </li>
+            </div>
+          </ul>
+        </div>
+        <input type="submit">
+
+      </form>
+
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#">
+          <img src="assets/images/github-128.png" class="social" alt="GitHub" />
+        </a>
+        <a href="#">
+          <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" />
+        </a>
+        <a href="#">
+          <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" />
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+</body>
+
+</html>
